@@ -1,3 +1,4 @@
+
 import time
 from PIL import Image
 
@@ -5,7 +6,9 @@ countdownsec = 0
 
 print("Please schedule a good time for us to begin our stretch session:")
 time_hourmin = input("When would you like to schedule our next session?:")
-time_hourmin = time(time_hourmin)
+
+current_time = time.strftime("%H:%M:%S")
+print("The current time is", current_time)
 
 def countdown60(countdownsec):
 
@@ -74,4 +77,16 @@ def scheduled_stretch():
      countdown60(countdownsec)
      countdown15(countdownsec)
      extend_repeat += 4
+
+if current_time == "09:00:00":
+    warm_up()
+    scheduled_stretch()
+elif current_time == "12:00:00":
+    scheduled_stretch()
+elif current_time == "15:00:00":
+    scheduled_stretch()
+elif current_time == "18:00:00":
+    scheduled_stretch()
+elif current_time == "22:00:00":
+    scheduled_stretch()
 
