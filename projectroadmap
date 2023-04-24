@@ -1,12 +1,12 @@
-[] Work on each problem to find a solution IN PROGRESS
-[] Make note of each successful change, as well as unsuccessful attempts
-[] Commit at least 6 code changes of significant size
+[X] Work on each problem to find a solution IN PROGRESS
+[X] Make note of each successful change, as well as unsuccessful attempts
+[X] Commit at least 6 code changes of significant size
   [X] Created my first 2 functions for the project
   [X] Added 3 images in relation to my project
-  []
-  []
-  []
-  []
-[] Post updates in the shared organization page where the professor can see them
+  [X] Download Pillow onto my computer to allow Handtracker to import the "Images" function, allowing my app to display images
+  [X] Create three functions: countdown60, countdown30, and countdown 15
+  [X] Allow Handtracker to find the current time of day
+  [X] Make IF/THEN statements to check the time of day to call the function per every 3 hours
+[X] Post updates in the shared organization page where the professor can see them
 [] Make changes to app to make it HandTracker
 [] Create PowerPoint slide to set expectation
