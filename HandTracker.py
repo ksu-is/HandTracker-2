@@ -7,6 +7,7 @@ from os import *
 p = vlc.MediaPlayer("StretchMusic.mp3")
 countdownsec = 0
 
+
 print("Please schedule a good time for us to begin our stretch session:")
 time_hourmin = input("When would you like to schedule our next session?:")
 
@@ -92,6 +93,17 @@ def scheduled_extensor(countdownsec):
      countdown30(countdownsec)
      countdown15rest(countdownsec)
      extend_repeat += 4
+
+def scheduled_flexor(countdownsec):
+    flex_repeat = 0
+
+
+    if  flex_repeat < 4:
+     print("Please complete a Wrist flexor stretch:")
+     os.system('open WristFlexorStretchVid.mp4')
+     countdown30(countdownsec)
+     countdown15rest(countdownsec)
+     flex_repeat += 1
 
 rep = 0
 
