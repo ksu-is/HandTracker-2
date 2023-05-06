@@ -28,7 +28,7 @@ time_hourmin = time_hourmin.split(",")
 print("Your 4 stretches will take place at" ,time_hourmin, " today.")
 
 
-print(time_hourmin[0])
+print(timevalue_12hour)
 
 def startfile(fn):
     os.system('open %s' % fn)
